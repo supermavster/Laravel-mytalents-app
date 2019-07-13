@@ -1,0 +1,170 @@
+.header{
+	width: 100%;
+	height: 80px;
+	padding: 0px;
+}
+
+#py-4 {
+
+    padding-top: 0px !important;
+
+}
+
+.logo{
+	width: 75px;
+	height:65px;
+	float: left;
+}
+.title{
+	padding-top: 10px;
+	float: left;
+}
+
+.message{
+	border:5px solid #003140;
+	padding:10px;
+	margin:10px;
+}
+
+.user-data{
+	border-bottom: 1px solid #003140;
+}
+
+.block-search{
+	margin: 0px;
+	padding: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.title-main{
+	font-size: 25px;
+	font-weight: bold;
+	color: #462D08;
+	padding-top: 6px;
+	padding-bottom: 0px;
+}
+
+.navbarSupportedContent{
+	padding: 0px;
+	margin:0px;
+}
+
+#mainMenu{
+	border-top:1px solid #462D08;
+}
+#main-nav{
+	padding: 0px;
+	margin:0px;
+}
+
+.boton,#boton{
+	background: #E18B00;
+	color: white;
+	font-weight: bold;
+	width: 150px;
+	height: 40px;
+}
+
+#password, #email{
+	background-color : #E18B00;
+	opacity: 0.4;
+	color: black;
+	font-weight: bold;
+}
+
+.logo-main{
+	width: 200px;
+	height:65px;
+	float: left;
+}
+
+.photo-admin{
+	width: 53px;
+	height:45px;
+	border-radius: 5px;
+	overflow: hidden
+}
+
+.table-title{
+	background:#333333;
+	color:white;
+}
+
+.search{
+	background: #E18B00;
+	color: white;
+	width: 50px;
+}
+
+.photo-profile-user{
+	width: 60px;
+	height:50px;
+	overflow: hidden;
+	border-radius: 5px;
+	float: left;
+}
+
+#link-publications{
+	background: #9F3904;
+}
+
+#link-comments{
+	background: #cc6601;
+}
+
+#link-profile{
+	background: #fe9900;
+}
+
+.status{
+	width: 75px;
+	height: 30px
+}
+
+.navbar{
+	padding: 0px;
+}
+
+.multiselect {
+    position:relative;
+}
+
+.selectSports, .selectMusic{
+  position: relative;
+}
+
+.selectSports select,.selectMusic select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelectSports, .overSelectMusic{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#deportes,#musicales{
+    display: block;
+    border: 1px #dadada solid;
+    position:absolute;
+    width:100%;
+    background-color:white;
+    box-sizing: border-box;
+    overflow-y:auto;
+    max-height:110px;
+    z-index: 90;
+}
+
+ #deportes.hide, #musicales.hide{display:none;}
+
+#deportes label, #musicales label{
+  display: block;
+}
+
+#deportes label:hover, #musicales label:hover{
+  background-color: #1e90ff;
+}
